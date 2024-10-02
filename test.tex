@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc} % 设置输入编码
+\usepackage{amsmath} % 数学包
+\usepackage{graphicx} % 图形包
+\usepackage{hyperref} % 超链接包
+
+\title{A Test Document}
+\author{Ruilong Chen}
+\date{\today}
+\lstset{
+  language=Python,              % Set language to Python
+  basicstyle=\ttfamily,         % Use monospaced font for code
+  numbers=left,                 % Line numbers on the left
+  frame=single,                 % Frame around the code block
+  backgroundcolor=\color{lightgray}, % Background color
+  keywordstyle=\color{blue},    % Color for keywords
+  commentstyle=\color{gray},    % Color for comments
+  stringstyle=\color{green},    % Color for strings
+  breaklines=true,              % Enable automatic line breaking
+  breakindent=0pt,              % No indent after a line break
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}, % Symbol at line break
+  escapeinside={(*@}{@*)},      % Allows you to escape to LaTeX
+}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This is a simple test document to demonstrate the basic structure of a LaTeX file. LaTeX is a powerful typesetting system commonly used for academic and scientific documents.
+
+\section{Mathematics}
+
+Here is an example of a mathematical equation:
+
+\begin{equation}
+E = mc^2
+\end{equation}
+
+This equation expresses the equivalence of mass and energy.
+
+\section{Figures}
+
+You can also include figures in your document. Below is an example:
+ 
+how about that
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image} % 使用示例图像
+    \caption{An example image.}
+    \label{fig:example}
+\end{figure}
+
+\section{Conclusion}
+
+In conclusion, LaTeX is a versatile tool for creating well-structured documents. You can include various elements such as equations, figures, and references.
+
+\end{document}

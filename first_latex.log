@@ -1,0 +1,134 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xetex 2024.9.24)  24 SEP 2024 23:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**first_latex.tex
+(./first_latex.tex
+./first_latex.tex:1: Undefined control sequence.
+l.1 \documentclass
+                  {article} % 文档类为 article
+? 
+./first_latex.tex:3: Undefined control sequence.
+l.3 \usepackage
+               {fontspec} % 引入 fontspec 宏包以支持中文
+? 
+./first_latex.tex:4: Undefined control sequence.
+l.4 \usepackage
+               {amsmath}  % 引入 amsmath 宏包以支持数学公式
+? 
+./first_latex.tex:5: Undefined control sequence.
+l.5 \usepackage
+               {polyglossia} % 支持多语言
+? 
+./first_latex.tex:6: Undefined control sequence.
+l.6 \setdefaultlanguage
+                       {chinese} % 默认语言设置为中文
+? 
+./first_latex.tex:7: Undefined control sequence.
+l.7 \setotherlanguage
+                     {english} % 其他语言设置为英文
+? 
+./first_latex.tex:9: Undefined control sequence.
+l.9 \title
+          {我的第一篇 LaTeX 文档} % 文档标题
+? 
+Missing character: There is no 我 ("6211) in font cmr10!
+Missing character: There is no 的 ("7684) in font cmr10!
+Missing character: There is no 第 ("7B2C) in font cmr10!
+Missing character: There is no 一 ("4E00) in font cmr10!
+Missing character: There is no 篇 ("7BC7) in font cmr10!
+Missing character: There is no 文 ("6587) in font cmr10!
+Missing character: There is no 档 ("6863) in font cmr10!
+./first_latex.tex:10: Undefined control sequence.
+l.10 \author
+            {Ruilong Chen} % 作者姓名
+? 
+./first_latex.tex:11: Undefined control sequence.
+l.11 \date
+          {\today} % 日期
+? 
+./first_latex.tex:11: Undefined control sequence.
+l.11 \date{\today
+                 } % 日期
+? 
+./first_latex.tex:13: Undefined control sequence.
+l.13 \begin
+           {document} % 开始文档内容
+? 
+./first_latex.tex:15: Undefined control sequence.
+l.15 \maketitle
+                % 生成标题
+? 
+./first_latex.tex:17: Undefined control sequence.
+l.17 \section
+             {引言} % 第一章：引言
+? 
+Missing character: There is no 引 ("5F15) in font cmr10!
+Missing character: There is no 言 ("8A00) in font cmr10!
+Missing character: There is no 欢 ("6B22) in font cmr10!
+Missing character: There is no 迎 ("8FCE) in font cmr10!
+Missing character: There is no 来 ("6765) in font cmr10!
+Missing character: There is no 到 ("5230) in font cmr10!
+Missing character: There is no 的 ("7684) in font cmr10!
+Missing character: There is no 世 ("4E16) in font cmr10!
+Missing character: There is no 界 ("754C) in font cmr10!
+Missing character: There is no ！ ("FF01) in font cmr10!
+Missing character: There is no 这 ("8FD9) in font cmr10!
+Missing character: There is no 是 ("662F) in font cmr10!
+Missing character: There is no 我 ("6211) in font cmr10!
+Missing character: There is no 的 ("7684) in font cmr10!
+Missing character: There is no 第 ("7B2C) in font cmr10!
+Missing character: There is no 一 ("4E00) in font cmr10!
+Missing character: There is no 篇 ("7BC7) in font cmr10!
+Missing character: There is no 文 ("6587) in font cmr10!
+Missing character: There is no 档 ("6863) in font cmr10!
+Missing character: There is no 。 ("3002) in font cmr10!
+./first_latex.tex:20: Undefined control sequence.
+l.20 \section
+             {数学公式} % 第二章：数学公式
+? 
+Missing character: There is no 数 ("6570) in font cmr10!
+Missing character: There is no 学 ("5B66) in font cmr10!
+Missing character: There is no 公 ("516C) in font cmr10!
+Missing character: There is no 式 ("5F0F) in font cmr10!
+Missing character: There is no 我 ("6211) in font cmr10!
+Missing character: There is no 们 ("4EEC) in font cmr10!
+Missing character: There is no 可 ("53EF) in font cmr10!
+Missing character: There is no 以 ("4EE5) in font cmr10!
+Missing character: There is no 在 ("5728) in font cmr10!
+Missing character: There is no 文 ("6587) in font cmr10!
+Missing character: There is no 档 ("6863) in font cmr10!
+Missing character: There is no 中 ("4E2D) in font cmr10!
+Missing character: There is no 插 ("63D2) in font cmr10!
+Missing character: There is no 入 ("5165) in font cmr10!
+Missing character: There is no 数 ("6570) in font cmr10!
+Missing character: There is no 学 ("5B66) in font cmr10!
+Missing character: There is no 公 ("516C) in font cmr10!
+Missing character: There is no 式 ("5F0F) in font cmr10!
+Missing character: There is no ， ("FF0C) in font cmr10!
+Missing character: There is no 例 ("4F8B) in font cmr10!
+Missing character: There is no 如 ("5982) in font cmr10!
+Missing character: There is no ： ("FF1A) in font cmr10!
+./first_latex.tex:23: Undefined control sequence.
+l.23 \begin
+           {equation} % 数学公式环境
+? 
+./first_latex.tex:24: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.24 E = mc^
+            2 % 爱因斯坦的质能方程
+? 
+./first_latex.tex:25: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \end 
+l.25 \end
+         {equation}
+? 
+[1] )
+Output written on first_latex.pdf (1 page).
